@@ -1,0 +1,8 @@
+class cricket
+{
+
+}
+class batsman
+{
+
+}
