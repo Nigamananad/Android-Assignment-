@@ -1,8 +1,7 @@
+//Kotlin Program to Check Whether a Number can be Expressed as Sum of Two Prime Numbers
 package functions_Level_Basic
-
-
 fun prime1(num: Int, num1: Int) {
-    var number = num
+    val number = num
     var bPrime: Int = 0
     var aPrime: Int = 0
     var c = 0
@@ -17,7 +16,7 @@ fun prime1(num: Int, num1: Int) {
         print("$number Not prime")
     }
     println()
-    var number1 = num1
+    val number1 = num1
     var c1 = 0
     for (i in 1..number1) {
         if (number1 % i == 0) {
@@ -30,7 +29,7 @@ fun prime1(num: Int, num1: Int) {
         print("$number1 Not prime")
     }
     println()
-    var sum = bPrime + aPrime
+    val sum = bPrime + aPrime
     println(sum)
 }
 fun main() {

@@ -1,3 +1,5 @@
+//WAP to find max value using function as express
+
 package functions_Level_Basic
 
 import java.util.Scanner
@@ -7,11 +9,11 @@ fun main() {
 }
 fun max()
 {
-    var scan=Scanner(System.`in`)
+    val scan=Scanner(System.`in`)
     println("Value of A:")
-    var a=scan.nextInt()
+    val a=scan.nextInt()
     println("Value of B:")
-    var b=scan.nextInt()
+    val b=scan.nextInt()
 
     if(a>b)
     {
