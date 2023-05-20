@@ -4,25 +4,22 @@ package decision_making_and_loop
 
 import java.util.Scanner
 
-fun main()
-{
-    var scan=Scanner(System.`in`)
+fun main() {
+    var scan = Scanner(System.`in`)
     print("Enter The Number:")
-    var number=scan.nextInt()
+    var number = scan.nextInt()
 
-    var c=0
-    for (i in 1..number)
-    {
+    var c = 0
+    for (i in 1..number) {
         for (j in 1..i) {
             if (i % j == 0) {
                 c++
             }
         }
-        if (c==2)
-        {
+        if (c == 2) {
             print("$i\t")
         }
-        c=0
+        c = 0
     }
 
 }

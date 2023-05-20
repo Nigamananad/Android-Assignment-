@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Module 2</string>
+    <string name="image">image</string>
+    <string name="redirect_another_activity">Redirect Another Activity</string>
+</resources>

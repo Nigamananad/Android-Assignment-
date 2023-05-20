@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Two Sum Number</string>
+    <string name="show_value">Show Value</string>
+</resources>

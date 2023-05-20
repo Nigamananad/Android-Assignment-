@@ -4,26 +4,20 @@ package decision_making_and_loop
 
 import java.util.Scanner
 
-fun main()
-{
-    var scan=Scanner(System.`in`)
+fun main() {
+    var scan = Scanner(System.`in`)
     print("Enter The Number:")
-    var number=scan.nextInt()
+    var number = scan.nextInt()
 
-    var c=0
-    for (i in 1..number)
-    {
-        if (number%i==0)
-        {
+    var c = 0
+    for (i in 1..number) {
+        if (number % i == 0) {
             c++
         }
     }
-    if (c==2)
-    {
+    if (c == 2) {
         print("Prime")
-    }
-    else
-    {
+    } else {
         print("Not prime")
     }
 }
